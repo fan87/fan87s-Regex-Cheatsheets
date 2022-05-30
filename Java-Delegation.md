@@ -111,6 +111,16 @@ public class FacketBuffer {
 
 To:
 
+```java
+public class FacketBuffer {
+    public FacketBuffer putChar(int index, char value) {
+        return this.original.putChar(index, value);
+    }
+}
+```
+
+(Uncompleted example, check the video tutorial below for full example & full usage)
+
 ### Video Tutorial
 
 This one is a little bit complicated, so here's the tutorial video: [YouTube](https://youtu.be/UqU9gDWyUaY)
